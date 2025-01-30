@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/hello-world/static/js/main.4b316c18.js",
+    "main.js": "/hello-world/static/js/main.1e072d9e.js",
     "index.html": "/hello-world/index.html",
-    "main.4b316c18.js.map": "/hello-world/static/js/main.4b316c18.js.map"
+    "main.1e072d9e.js.map": "/hello-world/static/js/main.1e072d9e.js.map"
   },
   "entrypoints": [
-    "static/js/main.4b316c18.js"
+    "static/js/main.1e072d9e.js"
   ]
 }
