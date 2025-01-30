@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/hello-world/static/js/main.fe5aa7d0.js",
+    "index.html": "/hello-world/index.html",
+    "main.fe5aa7d0.js.map": "/hello-world/static/js/main.fe5aa7d0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fe5aa7d0.js"
+  ]
+}
