@@ -1,14 +1,19 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 
 const HelloWorld = ({ color = "black" }) => {
   return <h1 style={{ color }}>Hello World</h1>;
 };
 
-// Function to embed in a given container
 window.EmbedHelloWorld = (containerId, options = {}) => {
   const container = document.getElementById(containerId);
   if (container) {
-    ReactDOM.render(<HelloWorld {...options} />, container);
+    console.log("Container found:", container);
+    console.log("Rendering with options:", options);
+    
+    const root = createRoot(container);
+    root.render(<HelloWorld {...options} />);
+  } else {
+    console.error(`Container with ID '${containerId}' not found.`);
   }
 };
